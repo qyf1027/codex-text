@@ -123,6 +123,59 @@
         "rules/server-parallel-nested-fetching.md": "ad5d9656984d4a959997a2367bf59cc6632297b4634a1dd13a087939d83f30b3",
         "rules/server-serialization.md": "f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f"
       }
+    },
+    {
+      "directory": "composition-patterns",
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "path": "skills/composition-patterns",
+      "files": {
+        "AGENTS.md": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+        "README.md": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+        "SKILL.md": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+        "metadata.json": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+        "rules/_sections.md": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+        "rules/_template.md": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+        "rules/architecture-avoid-boolean-props.md": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+        "rules/architecture-compound-components.md": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+        "rules/patterns-children-over-render-props.md": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+        "rules/patterns-explicit-variants.md": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+        "rules/react19-no-forwardref.md": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+        "rules/state-context-interface.md": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+        "rules/state-decouple-implementation.md": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+        "rules/state-lift-state.md": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b"
+      }
+    },
+    {
+      "directory": "frontend-testing-debugging",
+      "repository": "https://github.com/openai/plugins",
+      "commit": "0722921d5542fc593105c27bd52630babd8b8c2a",
+      "path": "plugins/build-web-apps/skills/frontend-testing-debugging",
+      "files": {
+        "SKILL.md": "03724620cf7e7de425b607a5492f572d867b1cf5d9c92c74bf50d057d7415e0b",
+        "agents/openai.yaml": "82477c78c6f601cb85fa21d30f61624f49fd28ab75351e65093ee6afb04f864c"
+      }
+    },
+    {
+      "directory": "shadcn-best-practices",
+      "repository": "https://github.com/openai/plugins",
+      "commit": "0722921d5542fc593105c27bd52630babd8b8c2a",
+      "path": "plugins/build-web-apps/skills/shadcn-best-practices",
+      "files": {
+        "SKILL.md": "7678f5168d4ee6f3ae3ce4d3d41c654f0aebc7b88cbc392a9504822dec0dff28",
+        "agents/openai.yaml": "35db91b1eef58b2abe01da9b88577de5a44e233b740cd93d692ddeeadd2afe4d",
+        "assets/shadcn-small.png": "0ecc62d682727f68fc4937eed19960c706714fa084d44f63028d611ae02bf3d7",
+        "assets/shadcn.png": "7d60ad6fec4d89a0d44ba5a3c9283d2fea0047af5467f9227040e20d927d39b7",
+        "cli.md": "ba3bc1f4466daf1fafee42bc21b3a8b1d4fc76d4c109a7c936074d9cf8293c4b",
+        "customization.md": "12e4d5fd4ae05ec4cef759035d3a70fec474d857298fe0a0effa8880112f8a54",
+        "evals/evals.json": "97ebb931d690578ee64e445d84f406be2a8799812d38d3cb1bb216e68291eb2b",
+        "mcp.md": "03cf3e9ad820bb2922c19b50164070d5c4b324c12869275f79174ceec8b43b1c",
+        "rules/base-vs-radix.md": "2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8",
+        "rules/composition.md": "de068e5aa5351dd8e4af7bfb7a6333302445c15527eaeee521d8591e95e7d709",
+        "rules/forms.md": "29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c",
+        "rules/icons.md": "d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535",
+        "rules/styling.md": "4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7"
+      }
     }
   ]
 }

@@ -14,6 +14,21 @@
 - React Best Practices 包含全部 rules 和汇总文档；其 frontmatter 名称是
   `vercel-react-best-practices`，目录名称沿用上游 `react-best-practices`。
 
+## 新增技能的使用条件
+
+- Composition Patterns 的调用名称是 `vercel-composition-patterns`。它用于组件
+  API 和状态组织；React 19 专属规则只适用于 React 19+。
+- Frontend Testing Debugging 提供 QA 流程，先判断 Browser 插件是否可用；
+  没有该插件时使用现有 Playwright。它不会安装 Browser 插件，也不提供
+  被测应用。本仓库没有应用，不能宣称已完成真实产品的 UI 调试验收。
+- shadcn 的调用名称是 `shadcn`。只在相关项目使用，不强制改造普通 HTML
+  或其他组件库。其动态 `!` 命令插值在当前运行时未验证，应在目标应用目录
+  显式执行 `npx shadcn@latest info --json` 获取上下文。CLI/组件版本和网络
+  依赖属于目标项目，当前不向 Skill 集合添加整套组件库或创建演示项目。
+  使用 CLI 时遵循目标项目包管理器，并保持 npm 签名/校验与 TLS 校验。
+- 本次安装验证为：上游快照逐文件一致、元数据和本地引用检查；不是
+  新任务自动加载测试，也不是三个技能的完整行为验收。
+
 ## 浏览器
 
 ```sh

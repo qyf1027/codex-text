@@ -1,6 +1,6 @@
 # codex-text
 
-一个整洁、可追溯的 Codex 仓库级 Skill 集合。当前收录四项：
+一个整洁、可追溯的 Codex 仓库级 Skill 集合。当前收录七项：
 
 | 目录 | 用途 | 上游 |
 | --- | --- | --- |
@@ -8,6 +8,10 @@
 | `playwright-cli` | 浏览器交互与功能验证 | Microsoft playwright-cli |
 | `web-design-guidelines` | 可访问性、UI/UX 审查 | Vercel agent-skills |
 | `react-best-practices` | React / Next.js 性能与代码质量 | Vercel agent-skills |
+
+| `composition-patterns` | React 组件组合、接口与状态组织 | Vercel agent-skills |
+| `frontend-testing-debugging` | 前端问题定位与渲染验证流程 | OpenAI plugins |
+| `shadcn-best-practices` | shadcn/ui 组件、表单与主题开发 | OpenAI plugins |
 
 已在账号安装的 Superpowers 和 Frontend Design 不重复存放。
 
