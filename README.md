@@ -1,6 +1,6 @@
 # codex-text
 
-一个整洁、可追溯的 Codex 仓库级 Skill 集合。当前收录七项：
+一个整洁、可追溯的 Codex 仓库级 Skill 集合。当前收录十一项：
 
 | 目录 | 用途 | 上游 |
 | --- | --- | --- |
@@ -12,6 +12,11 @@
 | `composition-patterns` | React 组件组合、接口与状态组织 | Vercel agent-skills |
 | `frontend-testing-debugging` | 前端问题定位与渲染验证流程 | OpenAI plugins |
 | `shadcn-best-practices` | shadcn/ui 组件、表单与主题开发 | OpenAI plugins |
+
+| `react-native-skills` | React Native / Expo 性能与移动端模式 | Vercel agent-skills |
+| `building-native-ui` | Expo 原生界面、导航与存储 | Expo / OpenAI plugins |
+| `native-data-fetching` | 移动端请求、重试、缓存与鉴权 | Expo / OpenAI plugins |
+| `supabase-postgres-best-practices` | Postgres 表设计、查询与数据隔离 | Supabase / OpenAI plugins |
 
 已在账号安装的 Superpowers 和 Frontend Design 不重复存放。
 
@@ -41,3 +46,8 @@ npm run check
 
 升级不会自动追踪 main；见 [维护说明](docs/maintenance.md)。不要提交缓存、
 截图、浏览器登录态、密钥或 node_modules。
+
+## 产品需求资料
+
+[时间规划与专注 App 初步需求](docs/product/time-management/requirements-draft.md)：
+Android + Windows、联网同步、托管云服务。当前为讨论稿，未开始产品实现。

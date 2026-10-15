@@ -52,3 +52,20 @@ npm run browser -- close
 本次在系统 Chromium 中验证：CLI 打开页面，设置测试按钮，读取快照引用，
 通过 click 激活按钮，并读取到预期的 passed 状态，然后关闭测试会话。
 这证明当前浏览器交互可用，不代表任意外部网站或账号登录态可用。
+
+## 移动端与云端技能
+
+- React Native Skills 的调用名称为 `vercel-react-native-skills`，适用于
+  React Native / Expo，不适用于普通 React DOM 或 Windows 原生界面。
+- Building Native UI 和 Native Data Fetching 来自 Expo 官方技能集合，
+  收录于 OpenAI plugins。部分导航、视觉效果和 API 为 iOS 专用或要求特定
+  Expo SDK；Android 项目应按目标系统及 SDK 筛选，不直接照搬。
+- Native Data Fetching 的请求缓存与网络恢复指南不等于跨设备同步引擎。
+  同步仍需数据模型、权限、幂等、并发版本和失联状态处理。
+- Supabase Postgres Best Practices 是数据库指导，不要求必须使用 Supabase，
+  也不会提供云端账号、数据库、MCP 或任何密钥。
+- 本次仅安装并校验文档资源，没有安装 Expo、Android SDK、模拟器、Rust、
+  Tauri 或数据库服务，也没有验证 Android/Windows 的构建和真机运行。
+- Windows 专用 Tauri Skill 未收录：本次 GitHub 搜索 API 请求被代理拒绝，
+  无法核实额外社区候选；现有 React 与前端测试技能可覆盖桌面界面部分，
+  桌面打包、通知与平台接口需后续按官方文档补充。

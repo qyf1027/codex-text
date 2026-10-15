@@ -1,6 +1,6 @@
 # codex-text maintenance
 
-This repository stores seven upstream Codex skills in `.agents/skills/`.
+This repository stores eleven upstream Codex skills in `.agents/skills/`.
 Use the existing checkout; do not create a worktree unless the user requests it.
 
 ## Skill discovery and use
@@ -16,6 +16,10 @@ using it. Do not claim a skill is loaded just because its files exist.
 - Reusable React component APIs and state composition: `composition-patterns/SKILL.md`.
 - Rendered UI bugs, regressions and responsive QA: `frontend-testing-debugging/SKILL.md`.
 - Projects using shadcn/ui or components.json: `shadcn-best-practices/SKILL.md`.
+- React Native / Expo mobile performance: `react-native-skills/SKILL.md`.
+- Expo mobile screens and navigation: `building-native-ui/SKILL.md`.
+- Expo network requests, auth, retries and caching: `native-data-fetching/SKILL.md`.
+- Postgres schema, query and row-level-security work: `supabase-postgres-best-practices/SKILL.md`.
 
 Only load skills relevant to the task. Respect user instructions and available
 tools. Frontend App Builder requires image generation; when unavailable, report
@@ -37,3 +41,13 @@ testing skill's Playwright fallback; do not claim a Browser plugin is installed.
 - Do not add unrelated skills, whole upstream repositories, or application demos.
 - Run `npm run check` after changes. Review upstream diffs before upgrades.
 - Account-installed Superpowers and Frontend Design are intentionally not duplicated.
+
+## Product research
+
+The time-management app brief is in `docs/product/time-management/requirements-draft.md`.
+Keep confirmed requirements separate from proposed scope. No app framework,
+database provider or deployment has been approved merely by installing a skill.
+Mobile skills apply to mobile code; do not apply iOS-only Expo APIs to Android
+or React Native UI APIs to a Windows webview. Skill installation does not provide
+Android emulators, Windows builds, synchronization, notifications or cloud accounts.
+Do not scaffold an app in this skills repository without explicit user direction.

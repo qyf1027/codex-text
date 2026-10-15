@@ -13,3 +13,8 @@ All Skill files are copied unchanged from the exact Git commits recorded in
   user's request for personal workflow use; review terms before redistribution.
 
 This repository does not apply a blanket license to third-party files.
+
+- Expo building-native-ui and native-data-fetching: MIT; the plugin's original
+  LICENSE is preserved as `licenses/expo-LICENSE` (Copyright Expo).
+- Vercel react-native-skills and Supabase supabase-postgres-best-practices:
+  SKILL.md declares MIT; no additional license was invented or substituted.
