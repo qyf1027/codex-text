@@ -1,0 +1,16 @@
+{
+  "name": "codex-text-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repository-scoped Codex skills and browser tooling",
+  "scripts": {
+    "check": "python3 scripts/verify-skills.py",
+    "browser": "playwright-cli"
+  },
+  "devDependencies": {
+    "@playwright/cli": "0.1.22"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
