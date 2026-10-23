@@ -1,0 +1,605 @@
+[
+  {
+    "id": "战略评级",
+    "name": "战略评级",
+    "phase": "charter",
+    "dependencies": [],
+    "flowType": "串行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "市场评估",
+    "name": "市场评估",
+    "phase": "charter",
+    "dependencies": [
+      "战略评级"
+    ],
+    "flowType": "串行",
+    "standardDuration": 7,
+    "limitDuration": 5
+  },
+  {
+    "id": "VOC分析",
+    "name": "VOC分析",
+    "phase": "charter",
+    "dependencies": [
+      "市场评估"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "PSD选择及分析",
+    "name": "PSD选择及分析",
+    "phase": "charter",
+    "dependencies": [
+      "市场评估"
+    ],
+    "flowType": "串行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "利基市场选择",
+    "name": "利基市场选择",
+    "phase": "charter",
+    "dependencies": [
+      "PSD选择及分析"
+    ],
+    "flowType": "串行",
+    "standardDuration": 3,
+    "limitDuration": 2
+  },
+  {
+    "id": "竞品分析",
+    "name": "竞品分析",
+    "phase": "charter",
+    "dependencies": [
+      "利基市场选择"
+    ],
+    "flowType": "并行",
+    "standardDuration": 7,
+    "limitDuration": 4
+  },
+  {
+    "id": "创建开发项目",
+    "name": "创建开发项目",
+    "phase": "TR1",
+    "dependencies": [
+      "竞品分析"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "产品定义",
+    "name": "产品定义",
+    "phase": "TR1",
+    "dependencies": [
+      "创建开发项目"
+    ],
+    "flowType": "串行",
+    "standardDuration": 10,
+    "limitDuration": 7
+  },
+  {
+    "id": "资源开发",
+    "name": "资源开发",
+    "phase": "TR1",
+    "dependencies": [
+      "产品定义"
+    ],
+    "flowType": "并行",
+    "standardDuration": 15,
+    "limitDuration": 10
+  },
+  {
+    "id": "技术路标",
+    "name": "技术路标",
+    "phase": "TR1",
+    "dependencies": [
+      "产品定义"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "CFMEA",
+    "name": "CFMEA",
+    "phase": "TR1",
+    "dependencies": [
+      "产品定义"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "产品路标",
+    "name": "产品路标",
+    "phase": "TR1",
+    "dependencies": [
+      "产品定义"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "工程可行性分析",
+    "name": "工程可行性分析",
+    "phase": "TR1",
+    "dependencies": [
+      "产品定义"
+    ],
+    "flowType": "串行",
+    "standardDuration": 10,
+    "limitDuration": 7
+  },
+  {
+    "id": "选样alpha测试",
+    "name": "选样alpha测试",
+    "phase": "TR1",
+    "dependencies": [
+      "工程可行性分析"
+    ],
+    "flowType": "并行",
+    "standardDuration": 14,
+    "limitDuration": 10
+  },
+  {
+    "id": "厂家签约意向沟通",
+    "name": "厂家签约意向沟通",
+    "phase": "TR1",
+    "dependencies": [
+      "工程可行性分析"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "产品简介会",
+    "name": "产品简介会",
+    "phase": "TR1",
+    "dependencies": [
+      "工程可行性分析"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "线下TR1评审",
+    "name": "线下TR1评审",
+    "phase": "CDCP",
+    "dependencies": [
+      "产品简介会"
+    ],
+    "flowType": "串行",
+    "standardDuration": 1,
+    "limitDuration": 1
+  },
+  {
+    "id": "利基市场评审",
+    "name": "利基市场评审",
+    "phase": "TR1",
+    "dependencies": [
+      "线下TR1评审"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "资源匹配确认",
+    "name": "资源匹配确认",
+    "phase": "TR1",
+    "dependencies": [
+      "利基市场评审"
+    ],
+    "flowType": "并行",
+    "standardDuration": 3,
+    "limitDuration": 2
+  },
+  {
+    "id": "商业测算",
+    "name": "商业测算",
+    "phase": "TR1",
+    "dependencies": [
+      "利基市场评审"
+    ],
+    "flowType": "串行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "云图TR1评审归档",
+    "name": "云图TR1评审归档",
+    "phase": "TR1",
+    "dependencies": [
+      "商业测算"
+    ],
+    "flowType": "串行",
+    "standardDuration": 1,
+    "limitDuration": 1
+  },
+  {
+    "id": "POC验证",
+    "name": "POC验证",
+    "phase": "TR2",
+    "dependencies": [
+      "云图TR1评审归档"
+    ],
+    "flowType": "串行",
+    "standardDuration": 20,
+    "limitDuration": 14
+  },
+  {
+    "id": "创建SKU/POA",
+    "name": "创建SKU/POA",
+    "phase": "TR2",
+    "dependencies": [
+      "POC验证"
+    ],
+    "flowType": "并行",
+    "standardDuration": 3,
+    "limitDuration": 2
+  },
+  {
+    "id": "TR2云图归档",
+    "name": "TR2云图归档",
+    "phase": "TR2",
+    "dependencies": [
+      "POC验证"
+    ],
+    "flowType": "串行",
+    "standardDuration": 1,
+    "limitDuration": 1
+  },
+  {
+    "id": "审厂、供应商入驻",
+    "name": "审厂、供应商入驻",
+    "phase": "TR2",
+    "dependencies": [
+      "POC验证"
+    ],
+    "flowType": "并行",
+    "standardDuration": 15,
+    "limitDuration": 10
+  },
+  {
+    "id": "认证评估",
+    "name": "认证评估",
+    "phase": "TR2",
+    "dependencies": [
+      "POC验证"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "侵权评估",
+    "name": "侵权评估",
+    "phase": "TR2",
+    "dependencies": [
+      "POC验证"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "合规评估",
+    "name": "合规评估",
+    "phase": "TR2",
+    "dependencies": [
+      "POC验证"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "产品PRD",
+    "name": "产品PRD",
+    "phase": "TR3",
+    "dependencies": [
+      "TR2云图归档"
+    ],
+    "flowType": "串行",
+    "standardDuration": 10,
+    "limitDuration": 7
+  },
+  {
+    "id": "DFMEA评估",
+    "name": "DFMEA评估",
+    "phase": "TR3",
+    "dependencies": [
+      "产品PRD"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "TR3云图归档",
+    "name": "TR3云图归档",
+    "phase": "TR3",
+    "dependencies": [
+      "产品PRD"
+    ],
+    "flowType": "串行",
+    "standardDuration": 1,
+    "limitDuration": 1
+  },
+  {
+    "id": "ID&结构设计",
+    "name": "ID&结构设计",
+    "phase": "TR3",
+    "dependencies": [
+      "TR3云图归档"
+    ],
+    "flowType": "串行",
+    "standardDuration": 20,
+    "limitDuration": 15
+  },
+  {
+    "id": "IE成本分析",
+    "name": "IE成本分析",
+    "phase": "TR3",
+    "dependencies": [
+      "ID&结构设计"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "PRD技术评审会议",
+    "name": "PRD技术评审会议",
+    "phase": "TR3",
+    "dependencies": [
+      "ID&结构设计"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "认证审核/计划",
+    "name": "认证审核/计划",
+    "phase": "TR3",
+    "dependencies": [
+      "PRD技术评审会议"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "平台店铺/品牌合规评审",
+    "name": "平台店铺/品牌合规评审",
+    "phase": "TR3",
+    "dependencies": [
+      "PRD技术评审会议"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "测试前，供应商预审",
+    "name": "测试前，供应商预审",
+    "phase": "TR4",
+    "dependencies": [
+      "PRD技术评审会议"
+    ],
+    "flowType": "串行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "功能测试，可靠性测试",
+    "name": "功能测试，可靠性测试",
+    "phase": "TR4",
+    "dependencies": [
+      "测试前，供应商预审"
+    ],
+    "flowType": "串行",
+    "standardDuration": 30,
+    "limitDuration": 20
+  },
+  {
+    "id": "产研侧TR4准出评审会议",
+    "name": "产研侧TR4准出评审会议",
+    "phase": "TR4",
+    "dependencies": [
+      "功能测试，可靠性测试"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "TR4云图归档",
+    "name": "TR4云图归档",
+    "phase": "TR4",
+    "dependencies": [
+      "产研侧TR4准出评审会议"
+    ],
+    "flowType": "串行",
+    "standardDuration": 1,
+    "limitDuration": 1
+  },
+  {
+    "id": "表面设计",
+    "name": "表面设计",
+    "phase": "TR4",
+    "dependencies": [
+      "TR4云图归档"
+    ],
+    "flowType": "并行",
+    "standardDuration": 10,
+    "limitDuration": 7
+  },
+  {
+    "id": "说明书、包装设计",
+    "name": "说明书、包装设计",
+    "phase": "TR4",
+    "dependencies": [
+      "TR4云图归档"
+    ],
+    "flowType": "并行",
+    "standardDuration": 15,
+    "limitDuration": 10
+  },
+  {
+    "id": "产品发布会（MR1&MR2）",
+    "name": "产品发布会（MR1&MR2）",
+    "phase": "TR4",
+    "dependencies": [
+      "TR4云图归档"
+    ],
+    "flowType": "并行",
+    "standardDuration": 5,
+    "limitDuration": 3
+  },
+  {
+    "id": "销售、备货计划制定",
+    "name": "销售、备货计划制定",
+    "phase": "TR4",
+    "dependencies": [
+      "TR4云图归档"
+    ],
+    "flowType": "并行",
+    "standardDuration": 7,
+    "limitDuration": 5
+  },
+  {
+    "id": "财务评审销售/备货计划",
+    "name": "财务评审销售/备货计划",
+    "phase": "TR4",
+    "dependencies": [
+      "销售、备货计划制定"
+    ],
+    "flowType": "并行",
+    "standardDuration": 3,
+    "limitDuration": 2
+  },
+  {
+    "id": "PDCP评审",
+    "name": "PDCP评审",
+    "phase": "PDCP",
+    "dependencies": [
+      "财务评审销售/备货计划"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "BETA 测试",
+    "name": "BETA 测试",
+    "phase": "TR4A",
+    "dependencies": [
+      "PDCP评审"
+    ],
+    "flowType": "串行",
+    "standardDuration": 14,
+    "limitDuration": 10
+  },
+  {
+    "id": "包装，说明书正确性审核",
+    "name": "包装，说明书正确性审核",
+    "phase": "TR4A",
+    "dependencies": [
+      "BETA 测试"
+    ],
+    "flowType": "并行",
+    "standardDuration": 3,
+    "limitDuration": 2
+  },
+  {
+    "id": "下单",
+    "name": "下单",
+    "phase": "TR4A",
+    "dependencies": [
+      "BETA 测试"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "认证实施",
+    "name": "认证实施",
+    "phase": "TR4A",
+    "dependencies": [
+      "下单"
+    ],
+    "flowType": "并行",
+    "standardDuration": 30,
+    "limitDuration": 20
+  },
+  {
+    "id": "产前样签样",
+    "name": "产前样签样",
+    "phase": "TR5",
+    "dependencies": [
+      "下单"
+    ],
+    "flowType": "串行",
+    "standardDuration": 7,
+    "limitDuration": 5
+  },
+  {
+    "id": "试产准备、验收",
+    "name": "试产准备、验收",
+    "phase": "TR5",
+    "dependencies": [
+      "产前样签样"
+    ],
+    "flowType": "串行",
+    "standardDuration": 10,
+    "limitDuration": 7
+  },
+  {
+    "id": "发起调拨、运输",
+    "name": "发起调拨、运输",
+    "phase": "EDCP",
+    "dependencies": [
+      "试产准备、验收"
+    ],
+    "flowType": "串行",
+    "standardDuration": 30,
+    "limitDuration": 15
+  },
+  {
+    "id": "EDCP评审",
+    "name": "EDCP评审",
+    "phase": "EDCP",
+    "dependencies": [
+      "发起调拨、运输"
+    ],
+    "flowType": "串行",
+    "standardDuration": 2,
+    "limitDuration": 1
+  },
+  {
+    "id": "上架开售",
+    "name": "上架开售",
+    "phase": "GA",
+    "dependencies": [
+      "EDCP评审"
+    ],
+    "flowType": "串行",
+    "standardDuration": 1,
+    "limitDuration": 1
+  }
+]

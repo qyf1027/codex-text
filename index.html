@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IPD Smart Tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232563eb'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='45' fill='white'%3Eϟ%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brandmark" aria-hidden="true">ϟ</div>
+    <div class="brandcopy"><strong>项目管理</strong><span>IPD 智能排期看板 · 本地预览版</span></div>
+    <span id="save-status" class="save-status" role="status">本地保存</span>
+  </header>
+  <main class="shell">
+    <section class="toolbar panel" aria-label="项目操作">
+      <div class="project-select"><label for="project-picker">当前项目</label><select id="project-picker"></select></div>
+      <button id="new-project" class="button secondary">＋ 新建项目</button>
+      <button id="export-project" class="button secondary">↓ 导出项目</button>
+      <button id="import-project" class="button secondary">↑ 导入项目</button>
+      <input id="import-file" type="file" accept="application/json,.json" hidden />
+    </section>
+    <section class="project-fields panel" aria-label="项目设置">
+      <label>项目名称<input id="project-name" type="text" maxlength="80" /></label>
+      <label>项目启动<input id="project-start" type="date" /></label>
+      <label>目标 GA<input id="target-ga" type="date" /></label>
+    </section>
+    <div id="notice" class="notice" role="alert" hidden></div>
+    <section class="metrics" aria-label="项目概览">
+      <article class="metric panel"><div class="metric-head"><span class="glyph blue">↗</span><span>当前进度</span></div><strong id="progress">0%</strong><small id="progress-count">0 / 55 节点</small><div class="bar"><span id="progress-bar"></span></div></article>
+      <article class="metric panel"><div class="metric-head"><span class="glyph coral">▣</span><span>标准预计 GA</span></div><strong id="ga-date">—</strong><small id="ga-target">目标：—</small></article>
+      <article class="metric panel"><div class="metric-head"><span class="glyph amber">△</span><span>风险预警</span></div><strong id="risk-title">—</strong><small id="risk-detail">—</small></article>
+    </section>
+    <section class="proposal panel" aria-label="排期建议"><div class="proposal-icon">ϟ</div><div><h2>智能挤压候选方案</h2><p id="proposal-copy">计算中…</p></div><span id="proposal-count" class="pill">未采纳建议</span></section>
+    <div class="legend"><span><i class="dot blue-dot"></i> 标准预测根据实际日期、前置任务和工作日计算</span><span><i class="dot orange-dot"></i> 挤压仅为候选，不修改任务原始耗时</span></div>
+    <section class="tasks panel" aria-labelledby="tasks-title"><div class="section-head"><div><p class="eyebrow">IPD ROADMAP</p><h2 id="tasks-title">阶段任务</h2></div><div class="table-actions"><button id="add-task" class="button secondary">＋ 添加任务</button><label class="filter">筛选 <select id="status-filter"><option value="all">全部任务</option><option value="未开始">未开始</option><option value="进行中">进行中</option><option value="已完成">已完成</option><option value="延期">延期</option></select></label></div></div><div id="phase-list"></div></section>
+    <footer>此 HTML 版用于先体验原 IPD 流程。多项目成果依赖、资源冲突与计划版本按 PRD 后续开发。</footer>
+  </main>
+  <dialog id="edit-dialog" aria-labelledby="dialog-title"><form id="edit-form" method="dialog"><h2 id="dialog-title">新建项目</h2><label id="dialog-main-label">名称<input id="dialog-name" required maxlength="80" /></label><label id="dialog-phase-label" hidden>所属阶段<input id="dialog-phase" value="TR1" /></label><div class="dialog-actions"><button id="dialog-cancel" type="button" class="button secondary">取消</button><button type="submit" class="button primary">保存</button></div></form></dialog>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>
