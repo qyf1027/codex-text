@@ -1,0 +1,5 @@
+{
+  "name": "IPD Smart-Tracker",
+  "description": "An AI Copilot for ODM-A hardware project management, featuring automated scheduling, dynamic tracking, and intelligent squeezing algorithms based on Huawei IPD processes.",
+  "requestFramePermissions": []
+}
