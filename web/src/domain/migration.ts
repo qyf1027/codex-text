@@ -1,7 +1,8 @@
 import { format, addDays } from 'date-fns';
 import { IPD_DATABASE } from '../types';
 import type { Project, Task, WorkspaceV1 } from './model';
-import { captureBaseline } from './baseline';
+import { captureBaseline, extendBaseline } from './baseline';
+import { forecastWorkspace } from './forecast';
 
 export function createDefaultWorkspace(): WorkspaceV1 {
   const now = new Date();
@@ -21,8 +22,10 @@ export function createDefaultWorkspace(): WorkspaceV1 {
     .map(name => ({ id: crypto.randomUUID(), sourceType: node.flowType === '并行' ? 'task_start' as const : 'task_completion' as const, sourceId: idByName.get(name)!, targetType: 'task_start' as const, targetId: tasks[index].id })));
   const gaTask = tasks.find(task => task.title === '上架开售');
   const project: Project = {
-    id: projectId, name: '项目管理', startDate, priority: 'medium', status: 'active', stages, tasks,
+    id: projectId, name: '项目管理', startDate, priority: 'medium', status: 'active', createdAt: now.toISOString(), updatedAt: now.toISOString(), stages, tasks,
     gates: gaTask ? [{ id: crypto.randomUUID(), name: '上市 GA', targetDate, deadlineType: 'soft', requiredTaskIds: [gaTask.id], requiredDeliverableIds: [] }] : [],
   };
-  return { schemaVersion: 1, id: crypto.randomUUID(), projects: [project], dependencies, resources: [], bookings: [], planRevisions: [], riskEvents: [], baselineSnapshots: [captureBaseline(project)] };
+  const workspace: WorkspaceV1 = { schemaVersion: 1, id: crypto.randomUUID(), currentProjectId: projectId, projects: [project], dependencies, resources: [], bookings: [], planRevisions: [], riskEvents: [], baselineSnapshots: [captureBaseline(project)] };
+  extendBaseline(workspace, forecastWorkspace(workspace, { today: startDate }));
+  return workspace;
 }

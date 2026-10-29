@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": "1.0.0",
+  "exportType": "workspace",
+  "id": "bb8c77c9-bc32-4395-ab1a-dda15daa9c9f",
+  "exportedAt": "2026-10-29T07:48:15.249Z",
+  "workspace": {
+    "schemaVersion": 1,
+    "id": "bb8c77c9-bc32-4395-ab1a-dda15daa9c9f",
+    "currentProjectId": "dc4f2e71-3c82-4323-ad74-b90d2d6c01c3",
+    "projects": [
+      {
+        "id": "dc4f2e71-3c82-4323-ad74-b90d2d6c01c3",
+        "name": "项目管理",
+        "startDate": "2026-10-29",
+        "priority": "medium",
+        "status": "active",
+        "createdAt": "2026-10-29T07:48:15.244Z",
+        "updatedAt": "2026-10-29T07:48:15.244Z",
+        "stages": [
+          {
+            "id": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "name": "charter",
+            "order": 0
+          },
+          {
+            "id": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "name": "TR1",
+            "order": 1
+          },
+          {
+            "id": "f322b57b-8ca5-4b94-ba7a-bc18587afc23",
+            "name": "CDCP",
+            "order": 2
+          },
+          {
+            "id": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "name": "TR2",
+            "order": 3
+          },
+          {
+            "id": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "name": "TR3",
+            "order": 4
+          },
+          {
+            "id": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "name": "TR4",
+            "order": 5
+          },
+          {
+            "id": "7d57ab39-d585-4e22-96b9-2b08a45682f4",
+            "name": "PDCP",
+            "order": 6
+          },
+          {
+            "id": "bbf9185b-9f6b-4966-8941-51d64535e216",
+            "name": "TR4A",
+            "order": 7
+          },
+          {
+            "id": "66951143-62c8-4ec0-9676-ee7389b72209",
+            "name": "TR5",
+            "order": 8
+          },
+          {
+            "id": "eb86d968-0e46-47e2-8ec0-eba84300dd9a",
+            "name": "EDCP",
+            "order": 9
+          },
+          {
+            "id": "217597dd-4920-4ca5-abf4-de20d031ee2f",
+            "name": "GA",
+            "order": 10
+          }
+        ],
+        "tasks": [
+          {
+            "id": "e2807af8-7dbc-4b9c-b6f3-9c10eba2bcff",
+            "stageId": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "title": "战略评级",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "3185e442-e414-484b-aea1-b02b5fa02d93",
+            "stageId": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "title": "市场评估",
+            "status": "not_started",
+            "standardDurationDays": 7,
+            "minimumDurationDays": 5,
+            "deliverables": []
+          },
+          {
+            "id": "d3814302-587c-4c58-929a-24d0c2ace026",
+            "stageId": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "title": "VOC分析",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "c8e2d29f-25e2-4f61-9711-d4db275c93be",
+            "stageId": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "title": "PSD选择及分析",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "3559a696-c2ed-4362-9c18-5b5d71e35a4e",
+            "stageId": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "title": "利基市场选择",
+            "status": "not_started",
+            "standardDurationDays": 3,
+            "minimumDurationDays": 2,
+            "deliverables": []
+          },
+          {
+            "id": "581345e4-88b1-40cf-9e64-892afa025784",
+            "stageId": "0fd9286e-7c02-4ad3-9def-5f4db7899cd2",
+            "title": "竞品分析",
+            "status": "not_started",
+            "standardDurationDays": 7,
+            "minimumDurationDays": 4,
+            "deliverables": []
+          },
+          {
+            "id": "6afd78f3-4492-493d-8dd2-68284ef5a014",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "创建开发项目",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "产品定义",
+            "status": "not_started",
+            "standardDurationDays": 10,
+            "minimumDurationDays": 7,
+            "deliverables": []
+          },
+          {
+            "id": "8fe9fdf4-251e-4f8f-a99e-70a1c2173a2f",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "资源开发",
+            "status": "not_started",
+            "standardDurationDays": 15,
+            "minimumDurationDays": 10,
+            "deliverables": []
+          },
+          {
+            "id": "374d40a8-a15e-4b68-9471-51ec49786827",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "技术路标",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "8722ef5b-52cc-430b-a5bb-deabb52abfd7",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "CFMEA",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "7fd12e93-6419-4912-925d-73de110f3222",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "产品路标",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "e640fd2a-c03e-42f3-9c80-6eaffe4856d6",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "工程可行性分析",
+            "status": "not_started",
+            "standardDurationDays": 10,
+            "minimumDurationDays": 7,
+            "deliverables": []
+          },
+          {
+            "id": "60332666-e27b-4abd-b381-1d87a360dcd5",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "选样alpha测试",
+            "status": "not_started",
+            "standardDurationDays": 14,
+            "minimumDurationDays": 10,
+            "deliverables": []
+          },
+          {
+            "id": "0faed30e-0fe8-4683-a6ce-29731feae119",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "厂家签约意向沟通",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "6d12688f-bd87-4470-8696-2b8b2e7cd6f1",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "产品简介会",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "5a78a092-0d76-4d8c-b6ae-a9848c622508",
+            "stageId": "f322b57b-8ca5-4b94-ba7a-bc18587afc23",
+            "title": "线下TR1评审",
+            "status": "not_started",
+            "standardDurationDays": 1,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "0129f511-f865-44d6-8d58-930a523b4860",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "利基市场评审",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "87baba5a-788c-49ab-b80c-1bf2dd275c22",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "资源匹配确认",
+            "status": "not_started",
+            "standardDurationDays": 3,
+            "minimumDurationDays": 2,
+            "deliverables": []
+          },
+          {
+            "id": "3e9eb7b1-c0e4-4933-9ddf-5d9b4c4d4d30",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "商业测算",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "b5716e29-d754-4cd8-b576-3397d6e666ca",
+            "stageId": "d0e70e7c-63e5-450c-80c3-b6308b318e9c",
+            "title": "云图TR1评审归档",
+            "status": "not_started",
+            "standardDurationDays": 1,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "98287950-471b-4002-b193-4b423e7cf343",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "POC验证",
+            "status": "not_started",
+            "standardDurationDays": 20,
+            "minimumDurationDays": 14,
+            "deliverables": []
+          },
+          {
+            "id": "24419c9c-148d-4801-a4ee-feef678c2a5f",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "创建SKU/POA",
+            "status": "not_started",
+            "standardDurationDays": 3,
+            "minimumDurationDays": 2,
+            "deliverables": []
+          },
+          {
+            "id": "549e7592-8a3b-46d1-ae28-f7b1d2ba4d7f",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "TR2云图归档",
+            "status": "not_started",
+            "standardDurationDays": 1,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "bde02759-ef25-493b-916a-e4d270b8477b",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "审厂、供应商入驻",
+            "status": "not_started",
+            "standardDurationDays": 15,
+            "minimumDurationDays": 10,
+            "deliverables": []
+          },
+          {
+            "id": "1552ecb2-cbb4-4fe1-9e6a-a88f7e8125b0",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "认证评估",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "906f8ec7-c95c-4388-a8f3-6025c88a3ee0",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "侵权评估",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "9c5c5319-844f-4f80-bc60-e7fca31d0bd5",
+            "stageId": "1da1d3e2-b475-4011-9472-25c0fdfa0875",
+            "title": "合规评估",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "ecf70e59-47ae-4244-914d-3f178333eadf",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "产品PRD",
+            "status": "not_started",
+            "standardDurationDays": 10,
+            "minimumDurationDays": 7,
+            "deliverables": []
+          },
+          {
+            "id": "677d6ab2-6ee1-4964-932e-73e4f7178d9d",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "DFMEA评估",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "b582f817-ef0c-47f3-8fe8-2e899ffa1577",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "TR3云图归档",
+            "status": "not_started",
+            "standardDurationDays": 1,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "ID&结构设计",
+            "status": "not_started",
+            "standardDurationDays": 20,
+            "minimumDurationDays": 15,
+            "deliverables": []
+          },
+          {
+            "id": "51117f6f-3842-478d-bc88-c0fd61dc3177",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "IE成本分析",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "PRD技术评审会议",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "7840fe57-e093-43d1-a5fb-cb4078339211",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "认证审核/计划",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "078adf61-a7e9-414c-a75d-a73ec9f428e5",
+            "stageId": "eadfdcd4-fa74-4035-aafd-a38b6105df1f",
+            "title": "平台店铺/品牌合规评审",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "95674a44-5ebc-4e43-b3f1-7dbba479bc27",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "测试前，供应商预审",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "1813f825-ee05-45de-a55b-40c2d98cfb54",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "功能测试，可靠性测试",
+            "status": "not_started",
+            "standardDurationDays": 30,
+            "minimumDurationDays": 20,
+            "deliverables": []
+          },
+          {
+            "id": "3ae6d189-5bc2-4f19-ac7e-1774cfaabcc8",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "产研侧TR4准出评审会议",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "375d6137-ab9b-4d0b-a576-55e85c914d4d",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "TR4云图归档",
+            "status": "not_started",
+            "standardDurationDays": 1,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "c8ac6500-4d35-46e8-bcd9-d3af87bedd02",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "表面设计",
+            "status": "not_started",
+            "standardDurationDays": 10,
+            "minimumDurationDays": 7,
+            "deliverables": []
+          },
+          {
+            "id": "e463b98f-9c4e-4ada-b992-b755eb86705a",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "说明书、包装设计",
+            "status": "not_started",
+            "standardDurationDays": 15,
+            "minimumDurationDays": 10,
+            "deliverables": []
+          },
+          {
+            "id": "fa6bd09a-67f0-4a38-a5bb-7575349db6b1",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "产品发布会（MR1&MR2）",
+            "status": "not_started",
+            "standardDurationDays": 5,
+            "minimumDurationDays": 3,
+            "deliverables": []
+          },
+          {
+            "id": "886393d7-12a3-481c-8db0-3116d7e9609a",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "销售、备货计划制定",
+            "status": "not_started",
+            "standardDurationDays": 7,
+            "minimumDurationDays": 5,
+            "deliverables": []
+          },
+          {
+            "id": "fc36553f-bda7-46c1-92cd-46adcbd09ed7",
+            "stageId": "f8108ac5-eb8d-4dce-81ad-c12dd01216a2",
+            "title": "财务评审销售/备货计划",
+            "status": "not_started",
+            "standardDurationDays": 3,
+            "minimumDurationDays": 2,
+            "deliverables": []
+          },
+          {
+            "id": "84a9a9b5-3b41-413b-9123-560a67478883",
+            "stageId": "7d57ab39-d585-4e22-96b9-2b08a45682f4",
+            "title": "PDCP评审",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "8a14d402-0ce3-4b3f-b742-3063e3180744",
+            "stageId": "bbf9185b-9f6b-4966-8941-51d64535e216",
+            "title": "BETA 测试",
+            "status": "not_started",
+            "standardDurationDays": 14,
+            "minimumDurationDays": 10,
+            "deliverables": []
+          },
+          {
+            "id": "0f557992-38a9-48f1-8900-fdb68603cf78",
+            "stageId": "bbf9185b-9f6b-4966-8941-51d64535e216",
+            "title": "包装，说明书正确性审核",
+            "status": "not_started",
+            "standardDurationDays": 3,
+            "minimumDurationDays": 2,
+            "deliverables": []
+          },
+          {
+            "id": "907c7976-0c11-408a-82d9-023051c7af72",
+            "stageId": "bbf9185b-9f6b-4966-8941-51d64535e216",
+            "title": "下单",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "a6705265-275c-4c95-9d1a-51569d8fd29e",
+            "stageId": "bbf9185b-9f6b-4966-8941-51d64535e216",
+            "title": "认证实施",
+            "status": "not_started",
+            "standardDurationDays": 30,
+            "minimumDurationDays": 20,
+            "deliverables": []
+          },
+          {
+            "id": "0ccbf9a9-a4c1-49f0-a8ae-edf5ddaa8cd0",
+            "stageId": "66951143-62c8-4ec0-9676-ee7389b72209",
+            "title": "产前样签样",
+            "status": "not_started",
+            "standardDurationDays": 7,
+            "minimumDurationDays": 5,
+            "deliverables": []
+          },
+          {
+            "id": "38a2c946-1a2f-4312-8e4a-d336b4464dd6",
+            "stageId": "66951143-62c8-4ec0-9676-ee7389b72209",
+            "title": "试产准备、验收",
+            "status": "not_started",
+            "standardDurationDays": 10,
+            "minimumDurationDays": 7,
+            "deliverables": []
+          },
+          {
+            "id": "0b937289-74e6-4690-9e99-01bc6fd507e2",
+            "stageId": "eb86d968-0e46-47e2-8ec0-eba84300dd9a",
+            "title": "发起调拨、运输",
+            "status": "not_started",
+            "standardDurationDays": 30,
+            "minimumDurationDays": 15,
+            "deliverables": []
+          },
+          {
+            "id": "e2912d10-ddd7-4aef-9e99-fc3aba962cec",
+            "stageId": "eb86d968-0e46-47e2-8ec0-eba84300dd9a",
+            "title": "EDCP评审",
+            "status": "not_started",
+            "standardDurationDays": 2,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          },
+          {
+            "id": "3221014b-f520-4ad0-91c0-68d1348c479b",
+            "stageId": "217597dd-4920-4ca5-abf4-de20d031ee2f",
+            "title": "上架开售",
+            "status": "not_started",
+            "standardDurationDays": 1,
+            "minimumDurationDays": 1,
+            "deliverables": []
+          }
+        ],
+        "gates": [
+          {
+            "id": "549ccbab-68c6-4d6b-a2c9-626b8d1e5429",
+            "name": "上市 GA",
+            "targetDate": "2027-05-17",
+            "deadlineType": "soft",
+            "requiredTaskIds": [
+              "3221014b-f520-4ad0-91c0-68d1348c479b"
+            ],
+            "requiredDeliverableIds": []
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "67009130-e1fc-4a5d-8c74-ec37984d89d0",
+        "sourceType": "task_completion",
+        "sourceId": "e2807af8-7dbc-4b9c-b6f3-9c10eba2bcff",
+        "targetType": "task_start",
+        "targetId": "3185e442-e414-484b-aea1-b02b5fa02d93"
+      },
+      {
+        "id": "c7dc7168-3b31-4de0-897f-d9a4c05f0b58",
+        "sourceType": "task_start",
+        "sourceId": "3185e442-e414-484b-aea1-b02b5fa02d93",
+        "targetType": "task_start",
+        "targetId": "d3814302-587c-4c58-929a-24d0c2ace026"
+      },
+      {
+        "id": "0baaa5f9-becf-469a-a313-7b300d2bf76e",
+        "sourceType": "task_completion",
+        "sourceId": "3185e442-e414-484b-aea1-b02b5fa02d93",
+        "targetType": "task_start",
+        "targetId": "c8e2d29f-25e2-4f61-9711-d4db275c93be"
+      },
+      {
+        "id": "099f5c97-cad9-46b6-a549-bb86bda96684",
+        "sourceType": "task_completion",
+        "sourceId": "c8e2d29f-25e2-4f61-9711-d4db275c93be",
+        "targetType": "task_start",
+        "targetId": "3559a696-c2ed-4362-9c18-5b5d71e35a4e"
+      },
+      {
+        "id": "fbe2e220-3759-4127-a8b7-f4d2521b8b68",
+        "sourceType": "task_start",
+        "sourceId": "3559a696-c2ed-4362-9c18-5b5d71e35a4e",
+        "targetType": "task_start",
+        "targetId": "581345e4-88b1-40cf-9e64-892afa025784"
+      },
+      {
+        "id": "6576aa3a-0d61-4d2d-b89e-3063c48c47cb",
+        "sourceType": "task_completion",
+        "sourceId": "581345e4-88b1-40cf-9e64-892afa025784",
+        "targetType": "task_start",
+        "targetId": "6afd78f3-4492-493d-8dd2-68284ef5a014"
+      },
+      {
+        "id": "60161dcd-d2bb-4e2c-a4ca-dfcb1eb8e62f",
+        "sourceType": "task_completion",
+        "sourceId": "6afd78f3-4492-493d-8dd2-68284ef5a014",
+        "targetType": "task_start",
+        "targetId": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321"
+      },
+      {
+        "id": "b851e126-9a52-4b84-ae08-87f661643683",
+        "sourceType": "task_start",
+        "sourceId": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321",
+        "targetType": "task_start",
+        "targetId": "8fe9fdf4-251e-4f8f-a99e-70a1c2173a2f"
+      },
+      {
+        "id": "8b500790-6a5c-46b9-80cf-58ce10b29e62",
+        "sourceType": "task_start",
+        "sourceId": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321",
+        "targetType": "task_start",
+        "targetId": "374d40a8-a15e-4b68-9471-51ec49786827"
+      },
+      {
+        "id": "610e7a27-2fe5-4f91-968a-4b63857ce052",
+        "sourceType": "task_start",
+        "sourceId": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321",
+        "targetType": "task_start",
+        "targetId": "8722ef5b-52cc-430b-a5bb-deabb52abfd7"
+      },
+      {
+        "id": "3e33f54f-96d8-49c5-9dd4-79c6bc263f76",
+        "sourceType": "task_start",
+        "sourceId": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321",
+        "targetType": "task_start",
+        "targetId": "7fd12e93-6419-4912-925d-73de110f3222"
+      },
+      {
+        "id": "3d8e2324-ccfa-4077-8afa-fa0088b17619",
+        "sourceType": "task_completion",
+        "sourceId": "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321",
+        "targetType": "task_start",
+        "targetId": "e640fd2a-c03e-42f3-9c80-6eaffe4856d6"
+      },
+      {
+        "id": "1b3304e9-be40-406d-bc18-5c203faa9c2a",
+        "sourceType": "task_start",
+        "sourceId": "e640fd2a-c03e-42f3-9c80-6eaffe4856d6",
+        "targetType": "task_start",
+        "targetId": "60332666-e27b-4abd-b381-1d87a360dcd5"
+      },
+      {
+        "id": "004f1e08-eaa0-4e43-a1a2-1d02491993b3",
+        "sourceType": "task_start",
+        "sourceId": "e640fd2a-c03e-42f3-9c80-6eaffe4856d6",
+        "targetType": "task_start",
+        "targetId": "0faed30e-0fe8-4683-a6ce-29731feae119"
+      },
+      {
+        "id": "e1915914-800b-48c7-af5a-4a72ab073a6a",
+        "sourceType": "task_completion",
+        "sourceId": "e640fd2a-c03e-42f3-9c80-6eaffe4856d6",
+        "targetType": "task_start",
+        "targetId": "6d12688f-bd87-4470-8696-2b8b2e7cd6f1"
+      },
+      {
+        "id": "8f1f225b-c10b-4668-9d7f-51f963486a47",
+        "sourceType": "task_completion",
+        "sourceId": "6d12688f-bd87-4470-8696-2b8b2e7cd6f1",
+        "targetType": "task_start",
+        "targetId": "5a78a092-0d76-4d8c-b6ae-a9848c622508"
+      },
+      {
+        "id": "998b2078-f88c-4475-9d8d-67694d93afa5",
+        "sourceType": "task_completion",
+        "sourceId": "5a78a092-0d76-4d8c-b6ae-a9848c622508",
+        "targetType": "task_start",
+        "targetId": "0129f511-f865-44d6-8d58-930a523b4860"
+      },
+      {
+        "id": "6a9f7647-0110-437e-9c3e-14cd15d5d454",
+        "sourceType": "task_start",
+        "sourceId": "0129f511-f865-44d6-8d58-930a523b4860",
+        "targetType": "task_start",
+        "targetId": "87baba5a-788c-49ab-b80c-1bf2dd275c22"
+      },
+      {
+        "id": "f0f2ca31-b705-42c8-8fbd-8d731cd2863a",
+        "sourceType": "task_completion",
+        "sourceId": "0129f511-f865-44d6-8d58-930a523b4860",
+        "targetType": "task_start",
+        "targetId": "3e9eb7b1-c0e4-4933-9ddf-5d9b4c4d4d30"
+      },
+      {
+        "id": "51f39183-e267-4edd-8f9b-9f898505a800",
+        "sourceType": "task_completion",
+        "sourceId": "3e9eb7b1-c0e4-4933-9ddf-5d9b4c4d4d30",
+        "targetType": "task_start",
+        "targetId": "b5716e29-d754-4cd8-b576-3397d6e666ca"
+      },
+      {
+        "id": "5e2fcc38-e2bb-431e-9d81-b85ab4b58095",
+        "sourceType": "task_completion",
+        "sourceId": "b5716e29-d754-4cd8-b576-3397d6e666ca",
+        "targetType": "task_start",
+        "targetId": "98287950-471b-4002-b193-4b423e7cf343"
+      },
+      {
+        "id": "1e02689c-33dd-4c4e-9be5-4b096d8de2db",
+        "sourceType": "task_start",
+        "sourceId": "98287950-471b-4002-b193-4b423e7cf343",
+        "targetType": "task_start",
+        "targetId": "24419c9c-148d-4801-a4ee-feef678c2a5f"
+      },
+      {
+        "id": "8ca38bad-1ae3-4e6b-94a0-fb1fa967bb1d",
+        "sourceType": "task_completion",
+        "sourceId": "98287950-471b-4002-b193-4b423e7cf343",
+        "targetType": "task_start",
+        "targetId": "549e7592-8a3b-46d1-ae28-f7b1d2ba4d7f"
+      },
+      {
+        "id": "369c0536-e971-4e42-818b-60d35cc27084",
+        "sourceType": "task_start",
+        "sourceId": "98287950-471b-4002-b193-4b423e7cf343",
+        "targetType": "task_start",
+        "targetId": "bde02759-ef25-493b-916a-e4d270b8477b"
+      },
+      {
+        "id": "c9acec7e-8c2f-4ec6-8740-f14586c2cac2",
+        "sourceType": "task_start",
+        "sourceId": "98287950-471b-4002-b193-4b423e7cf343",
+        "targetType": "task_start",
+        "targetId": "1552ecb2-cbb4-4fe1-9e6a-a88f7e8125b0"
+      },
+      {
+        "id": "bfcf9ea6-173f-4295-8278-cc7b3bb7d9b8",
+        "sourceType": "task_start",
+        "sourceId": "98287950-471b-4002-b193-4b423e7cf343",
+        "targetType": "task_start",
+        "targetId": "906f8ec7-c95c-4388-a8f3-6025c88a3ee0"
+      },
+      {
+        "id": "38738878-515a-42ec-b39b-857c1fe803e4",
+        "sourceType": "task_start",
+        "sourceId": "98287950-471b-4002-b193-4b423e7cf343",
+        "targetType": "task_start",
+        "targetId": "9c5c5319-844f-4f80-bc60-e7fca31d0bd5"
+      },
+      {
+        "id": "c45f8343-e815-452d-9d63-387ba2648b83",
+        "sourceType": "task_completion",
+        "sourceId": "549e7592-8a3b-46d1-ae28-f7b1d2ba4d7f",
+        "targetType": "task_start",
+        "targetId": "ecf70e59-47ae-4244-914d-3f178333eadf"
+      },
+      {
+        "id": "ed0d365e-b232-4e69-987c-2318649c30e7",
+        "sourceType": "task_start",
+        "sourceId": "ecf70e59-47ae-4244-914d-3f178333eadf",
+        "targetType": "task_start",
+        "targetId": "677d6ab2-6ee1-4964-932e-73e4f7178d9d"
+      },
+      {
+        "id": "2f162283-7cd0-4cd8-9af0-b83d5bc39152",
+        "sourceType": "task_completion",
+        "sourceId": "ecf70e59-47ae-4244-914d-3f178333eadf",
+        "targetType": "task_start",
+        "targetId": "b582f817-ef0c-47f3-8fe8-2e899ffa1577"
+      },
+      {
+        "id": "bedf6be2-a49f-4d04-bf58-1657b4f82370",
+        "sourceType": "task_completion",
+        "sourceId": "b582f817-ef0c-47f3-8fe8-2e899ffa1577",
+        "targetType": "task_start",
+        "targetId": "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0"
+      },
+      {
+        "id": "f8f0aec5-9828-4466-8474-3ded7d2570b2",
+        "sourceType": "task_start",
+        "sourceId": "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0",
+        "targetType": "task_start",
+        "targetId": "51117f6f-3842-478d-bc88-c0fd61dc3177"
+      },
+      {
+        "id": "ed6daf21-22a4-45e3-a414-0dc65b35705f",
+        "sourceType": "task_completion",
+        "sourceId": "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0",
+        "targetType": "task_start",
+        "targetId": "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee"
+      },
+      {
+        "id": "ef3e3f79-2cd8-4d79-b0e6-eb41d70fadda",
+        "sourceType": "task_start",
+        "sourceId": "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee",
+        "targetType": "task_start",
+        "targetId": "7840fe57-e093-43d1-a5fb-cb4078339211"
+      },
+      {
+        "id": "b27ac2dd-b1db-48c0-a41b-5f7cbcc138c7",
+        "sourceType": "task_start",
+        "sourceId": "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee",
+        "targetType": "task_start",
+        "targetId": "078adf61-a7e9-414c-a75d-a73ec9f428e5"
+      },
+      {
+        "id": "caa894f6-1736-4f91-8825-9dede05b1ea9",
+        "sourceType": "task_completion",
+        "sourceId": "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee",
+        "targetType": "task_start",
+        "targetId": "95674a44-5ebc-4e43-b3f1-7dbba479bc27"
+      },
+      {
+        "id": "45b350b6-48cb-4f4c-b139-b1795a0d9aa5",
+        "sourceType": "task_completion",
+        "sourceId": "95674a44-5ebc-4e43-b3f1-7dbba479bc27",
+        "targetType": "task_start",
+        "targetId": "1813f825-ee05-45de-a55b-40c2d98cfb54"
+      },
+      {
+        "id": "d4898f75-d814-405d-935a-2dbf3ace2f3f",
+        "sourceType": "task_completion",
+        "sourceId": "1813f825-ee05-45de-a55b-40c2d98cfb54",
+        "targetType": "task_start",
+        "targetId": "3ae6d189-5bc2-4f19-ac7e-1774cfaabcc8"
+      },
+      {
+        "id": "b3a1c6a6-e1bf-4dcd-b0ba-a9888a5d27a7",
+        "sourceType": "task_completion",
+        "sourceId": "3ae6d189-5bc2-4f19-ac7e-1774cfaabcc8",
+        "targetType": "task_start",
+        "targetId": "375d6137-ab9b-4d0b-a576-55e85c914d4d"
+      },
+      {
+        "id": "d00e5bca-65f3-44d8-b4fa-26dbe779c829",
+        "sourceType": "task_start",
+        "sourceId": "375d6137-ab9b-4d0b-a576-55e85c914d4d",
+        "targetType": "task_start",
+        "targetId": "c8ac6500-4d35-46e8-bcd9-d3af87bedd02"
+      },
+      {
+        "id": "0a76dca6-4c0c-422b-a7e8-08bc5dfc50f5",
+        "sourceType": "task_start",
+        "sourceId": "375d6137-ab9b-4d0b-a576-55e85c914d4d",
+        "targetType": "task_start",
+        "targetId": "e463b98f-9c4e-4ada-b992-b755eb86705a"
+      },
+      {
+        "id": "861c5db3-6ef9-4061-96d4-27e102d26873",
+        "sourceType": "task_start",
+        "sourceId": "375d6137-ab9b-4d0b-a576-55e85c914d4d",
+        "targetType": "task_start",
+        "targetId": "fa6bd09a-67f0-4a38-a5bb-7575349db6b1"
+      },
+      {
+        "id": "753ae24a-7e51-4224-b8e0-c1cd0e1a3511",
+        "sourceType": "task_start",
+        "sourceId": "375d6137-ab9b-4d0b-a576-55e85c914d4d",
+        "targetType": "task_start",
+        "targetId": "886393d7-12a3-481c-8db0-3116d7e9609a"
+      },
+      {
+        "id": "cad3f078-25ec-4f01-9027-a86e704dad81",
+        "sourceType": "task_start",
+        "sourceId": "886393d7-12a3-481c-8db0-3116d7e9609a",
+        "targetType": "task_start",
+        "targetId": "fc36553f-bda7-46c1-92cd-46adcbd09ed7"
+      },
+      {
+        "id": "71c8cde5-0951-4bca-9ce7-41288b38efdb",
+        "sourceType": "task_completion",
+        "sourceId": "fc36553f-bda7-46c1-92cd-46adcbd09ed7",
+        "targetType": "task_start",
+        "targetId": "84a9a9b5-3b41-413b-9123-560a67478883"
+      },
+      {
+        "id": "a92c8dbe-4364-4dd5-8f76-a0ca3b39b377",
+        "sourceType": "task_completion",
+        "sourceId": "84a9a9b5-3b41-413b-9123-560a67478883",
+        "targetType": "task_start",
+        "targetId": "8a14d402-0ce3-4b3f-b742-3063e3180744"
+      },
+      {
+        "id": "b31f8c3d-0198-4d3e-bb39-865df29bc170",
+        "sourceType": "task_start",
+        "sourceId": "8a14d402-0ce3-4b3f-b742-3063e3180744",
+        "targetType": "task_start",
+        "targetId": "0f557992-38a9-48f1-8900-fdb68603cf78"
+      },
+      {
+        "id": "a9a2ebc3-c1d0-4bbe-9057-50af51b9ccff",
+        "sourceType": "task_completion",
+        "sourceId": "8a14d402-0ce3-4b3f-b742-3063e3180744",
+        "targetType": "task_start",
+        "targetId": "907c7976-0c11-408a-82d9-023051c7af72"
+      },
+      {
+        "id": "5b5fe886-245a-4e9f-98db-6936820717d4",
+        "sourceType": "task_start",
+        "sourceId": "907c7976-0c11-408a-82d9-023051c7af72",
+        "targetType": "task_start",
+        "targetId": "a6705265-275c-4c95-9d1a-51569d8fd29e"
+      },
+      {
+        "id": "995bbc2b-b088-4f3a-9b04-24a2f161f3b0",
+        "sourceType": "task_completion",
+        "sourceId": "907c7976-0c11-408a-82d9-023051c7af72",
+        "targetType": "task_start",
+        "targetId": "0ccbf9a9-a4c1-49f0-a8ae-edf5ddaa8cd0"
+      },
+      {
+        "id": "2ee07237-20a2-4393-bfd4-5ca46bb11575",
+        "sourceType": "task_completion",
+        "sourceId": "0ccbf9a9-a4c1-49f0-a8ae-edf5ddaa8cd0",
+        "targetType": "task_start",
+        "targetId": "38a2c946-1a2f-4312-8e4a-d336b4464dd6"
+      },
+      {
+        "id": "256c05b6-717c-4148-b9ff-7fa73ab66599",
+        "sourceType": "task_completion",
+        "sourceId": "38a2c946-1a2f-4312-8e4a-d336b4464dd6",
+        "targetType": "task_start",
+        "targetId": "0b937289-74e6-4690-9e99-01bc6fd507e2"
+      },
+      {
+        "id": "bb194794-8f2b-4972-95ee-a5ed7fad7750",
+        "sourceType": "task_completion",
+        "sourceId": "0b937289-74e6-4690-9e99-01bc6fd507e2",
+        "targetType": "task_start",
+        "targetId": "e2912d10-ddd7-4aef-9e99-fc3aba962cec"
+      },
+      {
+        "id": "07c3d38b-31b2-45b3-b92a-f1c59e342236",
+        "sourceType": "task_completion",
+        "sourceId": "e2912d10-ddd7-4aef-9e99-fc3aba962cec",
+        "targetType": "task_start",
+        "targetId": "3221014b-f520-4ad0-91c0-68d1348c479b"
+      }
+    ],
+    "resources": [],
+    "bookings": [],
+    "planRevisions": [],
+    "riskEvents": [],
+    "baselineSnapshots": [
+      {
+        "projectId": "dc4f2e71-3c82-4323-ad74-b90d2d6c01c3",
+        "capturedAt": "2026-10-29T07:48:15.246Z",
+        "projectStartDate": "2026-10-29",
+        "taskDurations": {
+          "e2807af8-7dbc-4b9c-b6f3-9c10eba2bcff": 5,
+          "3185e442-e414-484b-aea1-b02b5fa02d93": 7,
+          "d3814302-587c-4c58-929a-24d0c2ace026": 5,
+          "c8e2d29f-25e2-4f61-9711-d4db275c93be": 5,
+          "3559a696-c2ed-4362-9c18-5b5d71e35a4e": 3,
+          "581345e4-88b1-40cf-9e64-892afa025784": 7,
+          "6afd78f3-4492-493d-8dd2-68284ef5a014": 2,
+          "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321": 10,
+          "8fe9fdf4-251e-4f8f-a99e-70a1c2173a2f": 15,
+          "374d40a8-a15e-4b68-9471-51ec49786827": 5,
+          "8722ef5b-52cc-430b-a5bb-deabb52abfd7": 5,
+          "7fd12e93-6419-4912-925d-73de110f3222": 5,
+          "e640fd2a-c03e-42f3-9c80-6eaffe4856d6": 10,
+          "60332666-e27b-4abd-b381-1d87a360dcd5": 14,
+          "0faed30e-0fe8-4683-a6ce-29731feae119": 5,
+          "6d12688f-bd87-4470-8696-2b8b2e7cd6f1": 2,
+          "5a78a092-0d76-4d8c-b6ae-a9848c622508": 1,
+          "0129f511-f865-44d6-8d58-930a523b4860": 2,
+          "87baba5a-788c-49ab-b80c-1bf2dd275c22": 3,
+          "3e9eb7b1-c0e4-4933-9ddf-5d9b4c4d4d30": 5,
+          "b5716e29-d754-4cd8-b576-3397d6e666ca": 1,
+          "98287950-471b-4002-b193-4b423e7cf343": 20,
+          "24419c9c-148d-4801-a4ee-feef678c2a5f": 3,
+          "549e7592-8a3b-46d1-ae28-f7b1d2ba4d7f": 1,
+          "bde02759-ef25-493b-916a-e4d270b8477b": 15,
+          "1552ecb2-cbb4-4fe1-9e6a-a88f7e8125b0": 5,
+          "906f8ec7-c95c-4388-a8f3-6025c88a3ee0": 5,
+          "9c5c5319-844f-4f80-bc60-e7fca31d0bd5": 5,
+          "ecf70e59-47ae-4244-914d-3f178333eadf": 10,
+          "677d6ab2-6ee1-4964-932e-73e4f7178d9d": 5,
+          "b582f817-ef0c-47f3-8fe8-2e899ffa1577": 1,
+          "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0": 20,
+          "51117f6f-3842-478d-bc88-c0fd61dc3177": 5,
+          "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee": 2,
+          "7840fe57-e093-43d1-a5fb-cb4078339211": 5,
+          "078adf61-a7e9-414c-a75d-a73ec9f428e5": 5,
+          "95674a44-5ebc-4e43-b3f1-7dbba479bc27": 5,
+          "1813f825-ee05-45de-a55b-40c2d98cfb54": 30,
+          "3ae6d189-5bc2-4f19-ac7e-1774cfaabcc8": 2,
+          "375d6137-ab9b-4d0b-a576-55e85c914d4d": 1,
+          "c8ac6500-4d35-46e8-bcd9-d3af87bedd02": 10,
+          "e463b98f-9c4e-4ada-b992-b755eb86705a": 15,
+          "fa6bd09a-67f0-4a38-a5bb-7575349db6b1": 5,
+          "886393d7-12a3-481c-8db0-3116d7e9609a": 7,
+          "fc36553f-bda7-46c1-92cd-46adcbd09ed7": 3,
+          "84a9a9b5-3b41-413b-9123-560a67478883": 2,
+          "8a14d402-0ce3-4b3f-b742-3063e3180744": 14,
+          "0f557992-38a9-48f1-8900-fdb68603cf78": 3,
+          "907c7976-0c11-408a-82d9-023051c7af72": 2,
+          "a6705265-275c-4c95-9d1a-51569d8fd29e": 30,
+          "0ccbf9a9-a4c1-49f0-a8ae-edf5ddaa8cd0": 7,
+          "38a2c946-1a2f-4312-8e4a-d336b4464dd6": 10,
+          "0b937289-74e6-4690-9e99-01bc6fd507e2": 30,
+          "e2912d10-ddd7-4aef-9e99-fc3aba962cec": 2,
+          "3221014b-f520-4ad0-91c0-68d1348c479b": 1
+        },
+        "taskStartDates": {
+          "e2807af8-7dbc-4b9c-b6f3-9c10eba2bcff": "2026-10-29",
+          "3185e442-e414-484b-aea1-b02b5fa02d93": "2026-11-05",
+          "d3814302-587c-4c58-929a-24d0c2ace026": "2026-11-05",
+          "c8e2d29f-25e2-4f61-9711-d4db275c93be": "2026-11-16",
+          "3559a696-c2ed-4362-9c18-5b5d71e35a4e": "2026-11-23",
+          "581345e4-88b1-40cf-9e64-892afa025784": "2026-11-23",
+          "6afd78f3-4492-493d-8dd2-68284ef5a014": "2026-12-02",
+          "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321": "2026-12-04",
+          "8fe9fdf4-251e-4f8f-a99e-70a1c2173a2f": "2026-12-04",
+          "374d40a8-a15e-4b68-9471-51ec49786827": "2026-12-04",
+          "8722ef5b-52cc-430b-a5bb-deabb52abfd7": "2026-12-04",
+          "7fd12e93-6419-4912-925d-73de110f3222": "2026-12-04",
+          "e640fd2a-c03e-42f3-9c80-6eaffe4856d6": "2026-12-18",
+          "60332666-e27b-4abd-b381-1d87a360dcd5": "2026-12-18",
+          "0faed30e-0fe8-4683-a6ce-29731feae119": "2026-12-18",
+          "6d12688f-bd87-4470-8696-2b8b2e7cd6f1": "2027-01-01",
+          "5a78a092-0d76-4d8c-b6ae-a9848c622508": "2027-01-05",
+          "0129f511-f865-44d6-8d58-930a523b4860": "2027-01-06",
+          "87baba5a-788c-49ab-b80c-1bf2dd275c22": "2027-01-06",
+          "3e9eb7b1-c0e4-4933-9ddf-5d9b4c4d4d30": "2027-01-08",
+          "b5716e29-d754-4cd8-b576-3397d6e666ca": "2027-01-15",
+          "98287950-471b-4002-b193-4b423e7cf343": "2027-01-18",
+          "24419c9c-148d-4801-a4ee-feef678c2a5f": "2027-01-18",
+          "549e7592-8a3b-46d1-ae28-f7b1d2ba4d7f": "2027-02-15",
+          "bde02759-ef25-493b-916a-e4d270b8477b": "2027-01-18",
+          "1552ecb2-cbb4-4fe1-9e6a-a88f7e8125b0": "2027-01-18",
+          "906f8ec7-c95c-4388-a8f3-6025c88a3ee0": "2027-01-18",
+          "9c5c5319-844f-4f80-bc60-e7fca31d0bd5": "2027-01-18",
+          "ecf70e59-47ae-4244-914d-3f178333eadf": "2027-02-16",
+          "677d6ab2-6ee1-4964-932e-73e4f7178d9d": "2027-02-16",
+          "b582f817-ef0c-47f3-8fe8-2e899ffa1577": "2027-03-02",
+          "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0": "2027-03-03",
+          "51117f6f-3842-478d-bc88-c0fd61dc3177": "2027-03-03",
+          "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee": "2027-03-31",
+          "7840fe57-e093-43d1-a5fb-cb4078339211": "2027-03-31",
+          "078adf61-a7e9-414c-a75d-a73ec9f428e5": "2027-03-31",
+          "95674a44-5ebc-4e43-b3f1-7dbba479bc27": "2027-04-02",
+          "1813f825-ee05-45de-a55b-40c2d98cfb54": "2027-04-09",
+          "3ae6d189-5bc2-4f19-ac7e-1774cfaabcc8": "2027-05-21",
+          "375d6137-ab9b-4d0b-a576-55e85c914d4d": "2027-05-25",
+          "c8ac6500-4d35-46e8-bcd9-d3af87bedd02": "2027-05-25",
+          "e463b98f-9c4e-4ada-b992-b755eb86705a": "2027-05-25",
+          "fa6bd09a-67f0-4a38-a5bb-7575349db6b1": "2027-05-25",
+          "886393d7-12a3-481c-8db0-3116d7e9609a": "2027-05-25",
+          "fc36553f-bda7-46c1-92cd-46adcbd09ed7": "2027-05-25",
+          "84a9a9b5-3b41-413b-9123-560a67478883": "2027-05-28",
+          "8a14d402-0ce3-4b3f-b742-3063e3180744": "2027-06-01",
+          "0f557992-38a9-48f1-8900-fdb68603cf78": "2027-06-01",
+          "907c7976-0c11-408a-82d9-023051c7af72": "2027-06-21",
+          "a6705265-275c-4c95-9d1a-51569d8fd29e": "2027-06-21",
+          "0ccbf9a9-a4c1-49f0-a8ae-edf5ddaa8cd0": "2027-06-23",
+          "38a2c946-1a2f-4312-8e4a-d336b4464dd6": "2027-07-02",
+          "0b937289-74e6-4690-9e99-01bc6fd507e2": "2027-07-16",
+          "e2912d10-ddd7-4aef-9e99-fc3aba962cec": "2027-08-27",
+          "3221014b-f520-4ad0-91c0-68d1348c479b": "2027-08-31"
+        },
+        "taskFinishDates": {
+          "e2807af8-7dbc-4b9c-b6f3-9c10eba2bcff": "2026-11-04",
+          "3185e442-e414-484b-aea1-b02b5fa02d93": "2026-11-13",
+          "d3814302-587c-4c58-929a-24d0c2ace026": "2026-11-11",
+          "c8e2d29f-25e2-4f61-9711-d4db275c93be": "2026-11-20",
+          "3559a696-c2ed-4362-9c18-5b5d71e35a4e": "2026-11-25",
+          "581345e4-88b1-40cf-9e64-892afa025784": "2026-12-01",
+          "6afd78f3-4492-493d-8dd2-68284ef5a014": "2026-12-03",
+          "698d86d9-ee0f-4ca6-bb84-cabf1c1d5321": "2026-12-17",
+          "8fe9fdf4-251e-4f8f-a99e-70a1c2173a2f": "2026-12-24",
+          "374d40a8-a15e-4b68-9471-51ec49786827": "2026-12-10",
+          "8722ef5b-52cc-430b-a5bb-deabb52abfd7": "2026-12-10",
+          "7fd12e93-6419-4912-925d-73de110f3222": "2026-12-10",
+          "e640fd2a-c03e-42f3-9c80-6eaffe4856d6": "2026-12-31",
+          "60332666-e27b-4abd-b381-1d87a360dcd5": "2027-01-06",
+          "0faed30e-0fe8-4683-a6ce-29731feae119": "2026-12-24",
+          "6d12688f-bd87-4470-8696-2b8b2e7cd6f1": "2027-01-04",
+          "5a78a092-0d76-4d8c-b6ae-a9848c622508": "2027-01-05",
+          "0129f511-f865-44d6-8d58-930a523b4860": "2027-01-07",
+          "87baba5a-788c-49ab-b80c-1bf2dd275c22": "2027-01-08",
+          "3e9eb7b1-c0e4-4933-9ddf-5d9b4c4d4d30": "2027-01-14",
+          "b5716e29-d754-4cd8-b576-3397d6e666ca": "2027-01-15",
+          "98287950-471b-4002-b193-4b423e7cf343": "2027-02-12",
+          "24419c9c-148d-4801-a4ee-feef678c2a5f": "2027-01-20",
+          "549e7592-8a3b-46d1-ae28-f7b1d2ba4d7f": "2027-02-15",
+          "bde02759-ef25-493b-916a-e4d270b8477b": "2027-02-05",
+          "1552ecb2-cbb4-4fe1-9e6a-a88f7e8125b0": "2027-01-22",
+          "906f8ec7-c95c-4388-a8f3-6025c88a3ee0": "2027-01-22",
+          "9c5c5319-844f-4f80-bc60-e7fca31d0bd5": "2027-01-22",
+          "ecf70e59-47ae-4244-914d-3f178333eadf": "2027-03-01",
+          "677d6ab2-6ee1-4964-932e-73e4f7178d9d": "2027-02-22",
+          "b582f817-ef0c-47f3-8fe8-2e899ffa1577": "2027-03-02",
+          "731a5d0f-e0d7-4ce9-835c-fba5a61f68d0": "2027-03-30",
+          "51117f6f-3842-478d-bc88-c0fd61dc3177": "2027-03-09",
+          "26a9bcdc-e1c6-4d44-b02b-2945b4fecfee": "2027-04-01",
+          "7840fe57-e093-43d1-a5fb-cb4078339211": "2027-04-06",
+          "078adf61-a7e9-414c-a75d-a73ec9f428e5": "2027-04-06",
+          "95674a44-5ebc-4e43-b3f1-7dbba479bc27": "2027-04-08",
+          "1813f825-ee05-45de-a55b-40c2d98cfb54": "2027-05-20",
+          "3ae6d189-5bc2-4f19-ac7e-1774cfaabcc8": "2027-05-24",
+          "375d6137-ab9b-4d0b-a576-55e85c914d4d": "2027-05-25",
+          "c8ac6500-4d35-46e8-bcd9-d3af87bedd02": "2027-06-07",
+          "e463b98f-9c4e-4ada-b992-b755eb86705a": "2027-06-14",
+          "fa6bd09a-67f0-4a38-a5bb-7575349db6b1": "2027-05-31",
+          "886393d7-12a3-481c-8db0-3116d7e9609a": "2027-06-02",
+          "fc36553f-bda7-46c1-92cd-46adcbd09ed7": "2027-05-27",
+          "84a9a9b5-3b41-413b-9123-560a67478883": "2027-05-31",
+          "8a14d402-0ce3-4b3f-b742-3063e3180744": "2027-06-18",
+          "0f557992-38a9-48f1-8900-fdb68603cf78": "2027-06-03",
+          "907c7976-0c11-408a-82d9-023051c7af72": "2027-06-22",
+          "a6705265-275c-4c95-9d1a-51569d8fd29e": "2027-07-30",
+          "0ccbf9a9-a4c1-49f0-a8ae-edf5ddaa8cd0": "2027-07-01",
+          "38a2c946-1a2f-4312-8e4a-d336b4464dd6": "2027-07-15",
+          "0b937289-74e6-4690-9e99-01bc6fd507e2": "2027-08-26",
+          "e2912d10-ddd7-4aef-9e99-fc3aba962cec": "2027-08-30",
+          "3221014b-f520-4ad0-91c0-68d1348c479b": "2027-08-31"
+        },
+        "deliverableOffsets": {},
+        "deliverableDates": {},
+        "gateTargets": {
+          "549ccbab-68c6-4d6b-a2c9-626b8d1e5429": "2027-05-17"
+        },
+        "gatePredictedDates": {
+          "549ccbab-68c6-4d6b-a2c9-626b8d1e5429": "2027-08-31"
+        }
+      }
+    ]
+  }
+}

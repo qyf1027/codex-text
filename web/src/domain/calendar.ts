@@ -10,6 +10,7 @@ function parse(value: LocalDate): Date {
 function iso(date: Date): LocalDate { return date.toISOString().slice(0, 10); }
 function workday(date: Date): boolean { return date.getUTCDay() !== 0 && date.getUTCDay() !== 6; }
 export function validLocalDate(value: string): boolean { try { parse(value); return true; } catch { return false; } }
+export function isWorkday(value: LocalDate): boolean { return workday(parse(value)); }
 export function onOrAfterWorkday(value: LocalDate): LocalDate {
   const date = parse(value);
   while (!workday(date)) date.setTime(date.getTime() + DAY);
@@ -19,6 +20,28 @@ export function nextWorkday(value: LocalDate): LocalDate {
   const date = parse(value);
   do { date.setTime(date.getTime() + DAY); } while (!workday(date));
   return iso(date);
+}
+export function previousWorkday(value: LocalDate): LocalDate {
+  const date = parse(value);
+  do { date.setTime(date.getTime() - DAY); } while (!workday(date));
+  return iso(date);
+}
+export function shiftWorkdays(value: LocalDate, offset: number): LocalDate {
+  if (!Number.isInteger(offset)) throw new Error('工作日偏移必须是整数');
+  let date = onOrAfterWorkday(value);
+  for (let step = 0; step < Math.abs(offset); step++) date = offset < 0 ? previousWorkday(date) : nextWorkday(date);
+  return date;
+}
+export function lateWorkdays(target: LocalDate, actual: LocalDate): number {
+  if (actual <= target) return 0;
+  let count = 0;
+  let cursor = target;
+  while (true) {
+    cursor = nextWorkday(cursor);
+    if (cursor > actual) break;
+    count++;
+  }
+  return count;
 }
 export function addWorkdaysInclusive(start: LocalDate, duration: number): LocalDate {
   if (!Number.isInteger(duration) || duration < 1) throw new Error('工期必须为正整数');
