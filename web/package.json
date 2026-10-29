@@ -11,7 +11,7 @@
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
     "test": "tsx --test src/domain/*.test.ts",
-    "test:e2e": "node scripts/browser-smoke.mjs"
+    "test:e2e": "node scripts/browser-smoke.mjs && node scripts/user-journey.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
